@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         GJP Bypass V2
-// @namespace    gjp.v2
+// @name         EASx Bypass V2
+// @namespace    eas.v2
 // @version      2.5
-// @description  Bypass ad-links using the GJPz API
-// @author       GJP
+// @description  Bypass ad-links using the EASx API
+// @author       EASx
 // @match         *://linkvertise.com/*
 // @match         *://mega-guy.com/*
 // @match         *://loot-link.com/*
@@ -190,10 +190,10 @@
 // @match         *://esohasl.net/*
 // @match         *://rbscripts.net/*
 // @match         *://link.rbscripts.net/*
-// @downloadURL  https://github.com/GstJPaul/userscripts/raw/refs/heads/main/gjp.user.js
-// @updateURL    https://github.com/GstJPaul/userscripts/raw/refs/heads/main/gjp.user.js
+// @downloadURL  https://github.com/XxEASTRxX/userscripts/raw/main/eas.user.js
+// @updateURL    https://github.com/XxEASTRxX/userscripts/raw/main/eas.user.js
 // @homepageURL  https://eas.lol
-// @icon         https://cdn.discordapp.com/attachments/1388477148213415987/1390375885789462538/image0.png?ex=686807f3&is=6866b673&hm=bbc87499962b1682de80883704b7d95d046ba88c7744fd7cea280833b6a1a139&
+// @icon         https://images-ext-1.discordapp.net/external/4eF4ubEGCLKukYCj7MPYZigPNTKl68O77uNmiqxgSJU/%3Fsize%3D4096/https/cdn.discordapp.com/icons/1261620335560626236/07c5fd390f9e2c248ab0361194bfd5e7.png
 // @run-at       document-start
 // ==/UserScript==
 
@@ -273,7 +273,7 @@
     document.documentElement.innerHTML = `
         <html>
             <head>
-                <title>GJP Bypass</title>
+                <title>EASx Bypass</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <style>
                     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
@@ -489,7 +489,7 @@
             </head>
             <body>
                 <div class="container">
-                    <h1>GJP Bypass</h1>
+                    <h1>EASx Bypass</h1>
                     <div class="loading" id="status"><span class="spinner"></span>Processing your request...</div>
                     <button id="redirect" class="redirect-button">Proceed to Content</button>
                 </div>
