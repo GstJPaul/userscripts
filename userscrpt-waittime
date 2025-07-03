@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name          GJP Bypasser
-// @namespace     gjp.
+// @namespace     gjp.cjp
 // @version       0.6
 // @description   Automatically bypass ad-links and get to your destination without ads!
 // @include       /^https?:\/\/\S*[.]*\/s\?\S*/
@@ -34,7 +34,7 @@
 // @updateURL     https://github.com/XxEASTRxX/userscripts/raw/refs/heads/main/eas.lol.user.js
 // @homepageURL   https://eas.lol/bypass
 // @icon          https://images-ext-1.discordapp.net/external/ytuMH8lC37HyWvwTocddNGChuItDTmCLVam5KO25Geg/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/1271386553855381547/a27d955e374ba79a7a916ea484b03e06.png?format=webp&quality=lossless&width=676&height=676
-// @credits       Most bypasses provided by bypass.vip, thank you!
+// @credits       Most bypasses provided by eas.lol, thank you!
 // ==/UserScript==
 
 (function () {
@@ -51,19 +51,19 @@
             method: 'GET',
             url: requestUrl,
             onload: function (response) {
-                console.log('EAS Bypass Response: ', response);
+                console.log('GJP Bypass Response: ', response);
                 if (response.status === 200) {
                     try {
                         const data = JSON.parse(response.responseText);
                         if (data.result) {
-                            console.log('EAS Bypass successful. Redirecting to:', data.result);
+                            console.log('GJP Bypass successful. Redirecting to:', data.result);
                             setTimeout(() => {
                                 window.location.href = data.result;
                             }, waitTime);
                         } else {
-                            console.warn('EAS Bypass failed.');
+                            console.warn('GJP Bypass failed.');
                             GM_notification({
-                                title: 'EAS Bypass Failed',
+                                title: 'GJP Bypass Failed',
                                 text: 'Unable to bypass the URL.',
                                 timeout: 5000,
                             });
@@ -71,7 +71,7 @@
                     } catch (error) {
                         console.error('JSON Parsing Error:', error);
                         GM_notification({
-                            title: 'EAS Bypass Error',
+                            title: 'GJP Bypass Error',
                             text: 'Invalid response format.',
                             timeout: 5000,
                         });
@@ -79,16 +79,16 @@
                 } else {
                     console.warn('EAS Bypass failed with status:', response.status);
                     GM_notification({
-                        title: 'EAS Bypass Error',
-                        text: 'Failed to connect to the EAS Bypass server.',
+                        title: 'GJP Bypass Error',
+                        text: 'Failed to connect to the GJP Bypass server.',
                         timeout: 5000,
                     });
                 }
             },
             onerror: function (error) {
-                console.error('Error in EAS Bypass:', error);
+                console.error('Error in GJP Bypass:', error);
                 GM_notification({
-                    title: 'EAS Bypass Error',
+                    title: 'GJP Bypass Error',
                     text: 'Failed to bypass the URL.',
                     timeout: 5000,
                 });
