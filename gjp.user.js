@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         GJPz Bypass V2
+// @name         GJP Bypass V2
 // @namespace    gjp.v2
 // @version      2.5
 // @description  Bypass ad-links using the GJPz API
@@ -273,7 +273,7 @@
     document.documentElement.innerHTML = `
         <html>
             <head>
-                <title>GJPz Bypass</title>
+                <title>GJP Bypass</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <style>
                     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
