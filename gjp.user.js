@@ -3,7 +3,7 @@
 // @namespace    gjp.v2
 // @version      2.5
 // @description  Bypass ad-links using the GJPz API
-// @author       GJPz
+// @author       GJP
 // @match         *://linkvertise.com/*
 // @match         *://mega-guy.com/*
 // @match         *://loot-link.com/*
@@ -489,7 +489,7 @@
             </head>
             <body>
                 <div class="container">
-                    <h1>EASx Bypass</h1>
+                    <h1>GJP Bypass</h1>
                     <div class="loading" id="status"><span class="spinner"></span>Processing your request...</div>
                     <button id="redirect" class="redirect-button">Proceed to Content</button>
                 </div>
