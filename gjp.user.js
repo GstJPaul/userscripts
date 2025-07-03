@@ -2,7 +2,7 @@
 // @name         GJP Bypass V2
 // @namespace    gjp.v2
 // @version      2.5
-// @description  Bypass ad-links using the GJPz API
+// @description  Bypass ad-links using the GJP API
 // @author       GJP
 // @match         *://linkvertise.com/*
 // @match         *://mega-guy.com/*
