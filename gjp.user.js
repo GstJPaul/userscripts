@@ -190,8 +190,8 @@
 // @match         *://esohasl.net/*
 // @match         *://rbscripts.net/*
 // @match         *://link.rbscripts.net/*
-// @downloadURL  https://github.com/GstJPaul/userscripts/raw/refs/heads/main/gjp.user.js
-// @updateURL    https://github.com/GstJPaul/userscripts/raw/refs/heads/main/gjp.user.js
+// @downloadURL  https://github.com/XxEASTRxX/userscripts/raw/refs/heads/main/eas.lol.user.js
+// @updateURL    https://github.com/XxEASTRxX/userscripts/raw/refs/heads/main/eas.lol.user.js
 // @homepageURL  https://eas.lol
 // @icon         https://images-ext-1.discordapp.net/external/4eF4ubEGCLKukYCj7MPYZigPNTKl68O77uNmiqxgSJU/%3Fsize%3D4096/https/cdn.discordapp.com/icons/1261620335560626236/07c5fd390f9e2c248ab0361194bfd5e7.png
 // @run-at       document-start
